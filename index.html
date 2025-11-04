@@ -440,7 +440,7 @@
                                 class="fa-regular fa-arrow-right"></i></button></a>
                 </div>
 
-                <div class="swiper collections mt-3">
+                <div class="swiper hotunder mt-3">
                     <div class="swiper-wrapper text-center">
                         <div class="swiper-slide "><a href="#!">
                                 <img src="assets/images/pro1.png" alt="">
@@ -888,6 +888,38 @@ San Diego</a>
         },
     });
 
+
+var swiper = new Swiper(".hotunder", {
+        slidesPerView: 5,
+        spaceBetween: 30,
+        loop: true,
+        autoplay: {
+            delay: 25000, // har 2 second me slide auto change hoga
+            disableOnInteraction: false, // user click kare to bhi auto chalta rahe
+        },
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        breakpoints: {
+            0: {
+                slidesPerView: 2,
+                spaceBetween: 10,
+            },
+            576: {
+                slidesPerView: 3,
+                spaceBetween: 15,
+            },
+            768: {
+                slidesPerView: 4,
+                spaceBetween: 20,
+            },
+            992: {
+                slidesPerView: 4,
+                spaceBetween: 30,
+            },
+        },
+    });
 
 
 </script>
