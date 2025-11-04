@@ -1,0 +1,270 @@
+/* top-bar */
+@media (max-width: 767px) {
+    .top_bar {
+        text-align: center;
+    }
+
+    .top_bar_social {
+        text-align: center;
+    }
+}
+
+/* 📱 Responsive Styles */
+@media (max-width: 992px) {
+    header {
+        padding: 15px 30px;
+        gap: 15px;
+    }
+
+    .SearchBox form {
+        width: 400px;
+    }
+
+    .SearchBox input {
+        min-width: 200px;
+    }
+
+    .info h6 {
+        font-size: 14px;
+    }
+
+    .info p {
+        font-size: 12px;
+    }
+
+    .InfoCall {
+        width: 35px;
+        height: 35px;
+    }
+
+    .InfoCall i {
+        font-size: 16px;
+    }
+
+    .SearchBtn {
+        padding: 8px 18px;
+    }
+
+
+}
+
+@media (max-width: 768px) {
+
+    .SearchBox form {
+        width: 100%;
+    }
+
+    .SearchBox input {
+        min-width: unset;
+        width: 100%;
+    }
+
+    .SearchBtn {
+        padding: 8px 15px;
+    }
+
+    .headerInfo {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .info h6 {
+        font-size: 13px;
+    }
+
+    .info p {
+        font-size: 11px;
+    }
+
+    .arrow-shape {
+        position: absolute;
+        top: 0px;
+        left: 36%;
+        width: 55%;
+    }
+
+    .showcase_item img {
+        height: auto;
+    }
+
+    .showcase_text h4 {
+        font-size: 28px !important;
+        font-weight: 600;
+    }
+
+    .showcase_text {
+        width: 51%;
+         top: 0%;
+        padding: 20px 20px;
+    }
+
+    .showcase_text p {
+        font-size: 16px;
+        font-weight: 600;
+        color: #707070;
+        margin-bottom: 10px;
+    }
+
+    .footer{
+        text-align: center;
+    }
+
+    .footer h5{
+        padding: 10px 20px;
+    }
+
+}
+
+@media (max-width: 480px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 20px;
+        gap: 10px;
+    }
+
+    .SearchBox form {
+        width: 100%;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        border: 1px solid #f0f0f0;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .searchIcon {
+        border: none;
+        /* background-color: #f9f9f9; */
+        padding: 10px;
+        border-right: 1px solid #eee;
+        border-radius: 0;
+        flex: 0 0 40px;
+    }
+
+    .SearchBox input {
+        border: none;
+        height: 40px;
+        width: 100%;
+        font-size: 13px;
+        padding: 0 10px;
+    }
+
+    .SearchBtn {
+        border: none;
+        border-left: 1px solid #eee;
+        border-radius: 0;
+        height: 44px;
+        padding: 0 15px;
+        flex-shrink: 0;
+    }
+
+    .logo {
+        text-align: center !important;
+    }
+
+    .arrow-shape {
+        position: absolute;
+        top: 77px;
+        left: 20%;
+        width: 77%;
+    }
+
+    .hero-text p {
+        color: #555;
+        margin-top: 50px;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .showcase_text h4 {
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+    .section_title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+    margin: 0 0 0px 6px;
+}
+
+}
+
+@media (max-width: 360px) {
+    .info h6 {
+        font-size: 12px;
+    }
+
+    .info h6 span {
+        font-size: 14px;
+        cursor: pointer;
+    }
+
+    .info p {
+        font-size: 9px;
+    }
+
+    .arrow-shape {
+        position: absolute;
+        top: 103px;
+        left: 28%;
+        width: 70%;
+    }
+
+    .hero-text p {
+        color: #555;
+        margin-top: 50px;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+}
+
+@media (max-width: 380px) {
+    .arrow-shape {
+        position: absolute;
+        top: 103px;
+        left: 28%;
+        width: 70%;
+    }
+
+    .hero-text p {
+        color: #555;
+        margin-top: 50px;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+
+
+}
+
+@media (max-width: 509px) {
+    .showcase_text h4 {
+        font-size: 24px;
+        margin-bottom: 8px;
+    }
+}
+
+@media (min-width: 350px) and (max-width: 480px) {
+    .showcase_text h4 {
+        font-size: 19px !important;
+        font-weight: 600;
+    }
+
+    .showcase_text {
+        width: 51%;
+        padding: 20px 10px;
+    }
+
+    .showcase_text p {
+        font-size: 13px;
+        font-weight: 600;
+        color: #707070;
+        margin-bottom: 3px;
+    }
+
+    .how-it-works {
+        padding: 40px 23px;
+    }
+}
